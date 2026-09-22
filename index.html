@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Before you let it run overnight</title>
+<meta name="description" content="Nine checks for anyone running an AI agent unattended.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Before you let it run overnight</h1>
+  <p class="strap">prove a check can fail before you trust it passing</p>
+
+  <p class="lede"><strong>Nine checks for anyone running an AI agent unattended.</strong></p>
+
+  <p>I run AI agents on my own servers, unsupervised, on real work.
+  In the space of a few days they truncated a file I had no backup of,
+  staged a secret into git twice, quoted stale status as live,
+  died silently mid-job, and acted on a proposal as if it were an
+  order. Every one of those was caught. None was caught by the
+  agent.</p>
+
+  <p>This is the runbook I wish I'd had: nine checks, each with the
+  failure that made me write it, each with a test you can plant to
+  prove the check works. No security theory. Ops, from the
+  operator's chair.</p>
+
+  <ul class="checks">
+    <li>What counts as an instruction (and what doesn't)</li>
+    <li>Acknowledge before acting</li>
+    <li>Silence is the alarm</li>
+    <li>Every check names what it examined</li>
+    <li>Plant the positive before you trust the negative</li>
+    <li>"It turned out fine" is not a safeguard</li>
+    <li>Seal what's sealed before you edit anything</li>
+    <li>A run that produced nothing must not exit clean</li>
+    <li>The second pair of eyes that owes the first one nothing</li>
+  </ul>
+
+  <div class="offer">
+    <p>PDF + the scripts I actually use.</p>
+    <p class="price">GBP 24</p>
+    <a class="button" href="buy.html">Buy</a>
+  </div>
+</main>
+<footer>
+  Visits are counted by GoatCounter: no cookies, no personal data.
+</footer>
+<img src="https://GOATCOUNTER_CODE.goatcounter.com/count?p=/" alt="" width="1" height="1" style="position:absolute;left:0;top:0;opacity:0">
+</body>
+</html>
